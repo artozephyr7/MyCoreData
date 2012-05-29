@@ -1,0 +1,348 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD2892481567C26E00590DC8 /* SBItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2892471567C26E00590DC8 /* SBItem.m */; };
+		BD28924C1567C45E00590DC8 /* ItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD28924B1567C45E00590DC8 /* ItemsViewController.m */; };
+		BD2892501567C86C00590DC8 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD28924E1567C86C00590DC8 /* DetailViewController.m */; };
+		BD2892511567C86C00590DC8 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD28924F1567C86C00590DC8 /* DetailViewController.xib */; };
+		BD28925B1568218300590DC8 /* RegionPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = BD28925A1568218300590DC8 /* RegionPicker.m */; };
+		BD36032D1567B7DF00971DC2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD36032C1567B7DF00971DC2 /* UIKit.framework */; };
+		BD36032F1567B7DF00971DC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD36032E1567B7DF00971DC2 /* Foundation.framework */; };
+		BD3603311567B7DF00971DC2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD3603301567B7DF00971DC2 /* CoreGraphics.framework */; };
+		BD3603371567B7DF00971DC2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BD3603351567B7DF00971DC2 /* InfoPlist.strings */; };
+		BD3603391567B7E000971DC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3603381567B7DF00971DC2 /* main.m */; };
+		BD36033D1567B7E000971DC2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD36033C1567B7E000971DC2 /* AppDelegate.m */; };
+		BD3603451567B9DC00971DC2 /* Starbucks.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD3603431567B9DC00971DC2 /* Starbucks.xcdatamodeld */; };
+		BD3603471567BA0000971DC2 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD3603461567BA0000971DC2 /* CoreData.framework */; };
+		BD36034D1567BBAD00971DC2 /* SBItemStore.m in Sources */ = {isa = PBXBuildFile; fileRef = BD36034C1567BBAD00971DC2 /* SBItemStore.m */; };
+		BD423B13156846D600918193 /* RegionPickerDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD423B11156846D600918193 /* RegionPickerDetailViewController.m */; };
+		BD423B14156846D600918193 /* RegionPickerDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD423B12156846D600918193 /* RegionPickerDetailViewController.xib */; };
+		BDB350B015755D6A00DB3519 /* starbucks.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = BDB350AF15755D6A00DB3519 /* starbucks.sqlite */; };
+		BDBABFCF157365120084793F /* AllItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBABFCE157365120084793F /* AllItemsViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BD2892461567C26E00590DC8 /* SBItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBItem.h; sourceTree = "<group>"; };
+		BD2892471567C26E00590DC8 /* SBItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBItem.m; sourceTree = "<group>"; };
+		BD28924A1567C45E00590DC8 /* ItemsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemsViewController.h; sourceTree = "<group>"; };
+		BD28924B1567C45E00590DC8 /* ItemsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemsViewController.m; sourceTree = "<group>"; };
+		BD28924D1567C86B00590DC8 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		BD28924E1567C86C00590DC8 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		BD28924F1567C86C00590DC8 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		BD2892591568218300590DC8 /* RegionPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegionPicker.h; sourceTree = "<group>"; };
+		BD28925A1568218300590DC8 /* RegionPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegionPicker.m; sourceTree = "<group>"; };
+		BD3603281567B7DF00971DC2 /* MyCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD36032C1567B7DF00971DC2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BD36032E1567B7DF00971DC2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BD3603301567B7DF00971DC2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BD3603341567B7DF00971DC2 /* MyCoreData-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyCoreData-Info.plist"; sourceTree = "<group>"; };
+		BD3603361567B7DF00971DC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BD3603381567B7DF00971DC2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD36033A1567B7E000971DC2 /* MyCoreData-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyCoreData-Prefix.pch"; sourceTree = "<group>"; };
+		BD36033B1567B7E000971DC2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BD36033C1567B7E000971DC2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BD3603441567B9DC00971DC2 /* Starbucks.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Starbucks.xcdatamodel; sourceTree = "<group>"; };
+		BD3603461567BA0000971DC2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		BD36034B1567BBAC00971DC2 /* SBItemStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBItemStore.h; sourceTree = "<group>"; };
+		BD36034C1567BBAD00971DC2 /* SBItemStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBItemStore.m; sourceTree = "<group>"; };
+		BD423B10156846D600918193 /* RegionPickerDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegionPickerDetailViewController.h; sourceTree = "<group>"; };
+		BD423B11156846D600918193 /* RegionPickerDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegionPickerDetailViewController.m; sourceTree = "<group>"; };
+		BD423B12156846D600918193 /* RegionPickerDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegionPickerDetailViewController.xib; sourceTree = "<group>"; };
+		BDB350AF15755D6A00DB3519 /* starbucks.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = starbucks.sqlite; sourceTree = "<group>"; };
+		BDBABFCD157365120084793F /* AllItemsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllItemsViewController.h; sourceTree = "<group>"; };
+		BDBABFCE157365120084793F /* AllItemsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllItemsViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD3603251567B7DF00971DC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD3603471567BA0000971DC2 /* CoreData.framework in Frameworks */,
+				BD36032D1567B7DF00971DC2 /* UIKit.framework in Frameworks */,
+				BD36032F1567B7DF00971DC2 /* Foundation.framework in Frameworks */,
+				BD3603311567B7DF00971DC2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD36031D1567B7DE00971DC2 = {
+			isa = PBXGroup;
+			children = (
+				BD3603461567BA0000971DC2 /* CoreData.framework */,
+				BD3603321567B7DF00971DC2 /* MyCoreData */,
+				BD36032B1567B7DF00971DC2 /* Frameworks */,
+				BD3603291567B7DF00971DC2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD3603291567B7DF00971DC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD3603281567B7DF00971DC2 /* MyCoreData.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD36032B1567B7DF00971DC2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD36032C1567B7DF00971DC2 /* UIKit.framework */,
+				BD36032E1567B7DF00971DC2 /* Foundation.framework */,
+				BD3603301567B7DF00971DC2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD3603321567B7DF00971DC2 /* MyCoreData */ = {
+			isa = PBXGroup;
+			children = (
+				BD36033B1567B7E000971DC2 /* AppDelegate.h */,
+				BD36033C1567B7E000971DC2 /* AppDelegate.m */,
+				BD28924A1567C45E00590DC8 /* ItemsViewController.h */,
+				BD28924B1567C45E00590DC8 /* ItemsViewController.m */,
+				BD28924D1567C86B00590DC8 /* DetailViewController.h */,
+				BD28924E1567C86C00590DC8 /* DetailViewController.m */,
+				BD28924F1567C86C00590DC8 /* DetailViewController.xib */,
+				BD2892591568218300590DC8 /* RegionPicker.h */,
+				BD28925A1568218300590DC8 /* RegionPicker.m */,
+				BD423B10156846D600918193 /* RegionPickerDetailViewController.h */,
+				BD423B11156846D600918193 /* RegionPickerDetailViewController.m */,
+				BD423B12156846D600918193 /* RegionPickerDetailViewController.xib */,
+				BDBABFCD157365120084793F /* AllItemsViewController.h */,
+				BDBABFCE157365120084793F /* AllItemsViewController.m */,
+				BD36034E1567BBBB00971DC2 /* Model */,
+				BD3603331567B7DF00971DC2 /* Supporting Files */,
+			);
+			path = MyCoreData;
+			sourceTree = "<group>";
+		};
+		BD3603331567B7DF00971DC2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD3603341567B7DF00971DC2 /* MyCoreData-Info.plist */,
+				BD3603351567B7DF00971DC2 /* InfoPlist.strings */,
+				BD3603381567B7DF00971DC2 /* main.m */,
+				BD36033A1567B7E000971DC2 /* MyCoreData-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD36034E1567BBBB00971DC2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BDB350AF15755D6A00DB3519 /* starbucks.sqlite */,
+				BD3603431567B9DC00971DC2 /* Starbucks.xcdatamodeld */,
+				BD2892461567C26E00590DC8 /* SBItem.h */,
+				BD2892471567C26E00590DC8 /* SBItem.m */,
+				BD36034B1567BBAC00971DC2 /* SBItemStore.h */,
+				BD36034C1567BBAD00971DC2 /* SBItemStore.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD3603271567B7DF00971DC2 /* MyCoreData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD3603401567B7E000971DC2 /* Build configuration list for PBXNativeTarget "MyCoreData" */;
+			buildPhases = (
+				BD3603241567B7DF00971DC2 /* Sources */,
+				BD3603251567B7DF00971DC2 /* Frameworks */,
+				BD3603261567B7DF00971DC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyCoreData;
+			productName = MyCoreData;
+			productReference = BD3603281567B7DF00971DC2 /* MyCoreData.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD36031F1567B7DE00971DC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "ever free Inc.";
+			};
+			buildConfigurationList = BD3603221567B7DE00971DC2 /* Build configuration list for PBXProject "MyCoreData" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BD36031D1567B7DE00971DC2;
+			productRefGroup = BD3603291567B7DF00971DC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD3603271567B7DF00971DC2 /* MyCoreData */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD3603261567B7DF00971DC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD3603371567B7DF00971DC2 /* InfoPlist.strings in Resources */,
+				BD2892511567C86C00590DC8 /* DetailViewController.xib in Resources */,
+				BD423B14156846D600918193 /* RegionPickerDetailViewController.xib in Resources */,
+				BDB350B015755D6A00DB3519 /* starbucks.sqlite in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD3603241567B7DF00971DC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD3603391567B7E000971DC2 /* main.m in Sources */,
+				BD36033D1567B7E000971DC2 /* AppDelegate.m in Sources */,
+				BD3603451567B9DC00971DC2 /* Starbucks.xcdatamodeld in Sources */,
+				BD36034D1567BBAD00971DC2 /* SBItemStore.m in Sources */,
+				BD2892481567C26E00590DC8 /* SBItem.m in Sources */,
+				BD28924C1567C45E00590DC8 /* ItemsViewController.m in Sources */,
+				BD2892501567C86C00590DC8 /* DetailViewController.m in Sources */,
+				BD28925B1568218300590DC8 /* RegionPicker.m in Sources */,
+				BD423B13156846D600918193 /* RegionPickerDetailViewController.m in Sources */,
+				BDBABFCF157365120084793F /* AllItemsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BD3603351567B7DF00971DC2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD3603361567B7DF00971DC2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD36033E1567B7E000971DC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BD36033F1567B7E000971DC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD3603411567B7E000971DC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyCoreData/MyCoreData-Prefix.pch";
+				INFOPLIST_FILE = "MyCoreData/MyCoreData-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BD3603421567B7E000971DC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyCoreData/MyCoreData-Prefix.pch";
+				INFOPLIST_FILE = "MyCoreData/MyCoreData-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD3603221567B7DE00971DC2 /* Build configuration list for PBXProject "MyCoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD36033E1567B7E000971DC2 /* Debug */,
+				BD36033F1567B7E000971DC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD3603401567B7E000971DC2 /* Build configuration list for PBXNativeTarget "MyCoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD3603411567B7E000971DC2 /* Debug */,
+				BD3603421567B7E000971DC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BD3603431567B9DC00971DC2 /* Starbucks.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BD3603441567B9DC00971DC2 /* Starbucks.xcdatamodel */,
+			);
+			currentVersion = BD3603441567B9DC00971DC2 /* Starbucks.xcdatamodel */;
+			path = Starbucks.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BD36031F1567B7DE00971DC2 /* Project object */;
+}

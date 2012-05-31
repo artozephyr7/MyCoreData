@@ -21,6 +21,9 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     
+    UIColor *navBarColor = [UIColor colorWithRed:0.10 green:0.49 blue:0.36 alpha:1.0];
+    [[UINavigationBar appearance] setTintColor:navBarColor];
+    
     ItemsViewController *itemsViewController = [[ItemsViewController alloc] init];
     AllItemsViewController *allItemsViewController = [[AllItemsViewController alloc] init];
     

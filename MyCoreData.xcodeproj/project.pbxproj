@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD24835915756C7500BF50DD /* CustomCellBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = BD24835815756C7500BF50DD /* CustomCellBackground.m */; };
+		BD24835D15756E5100BF50DD /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = BD24835C15756E5100BF50DD /* Common.m */; };
 		BD2892481567C26E00590DC8 /* SBItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2892471567C26E00590DC8 /* SBItem.m */; };
 		BD28924C1567C45E00590DC8 /* ItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD28924B1567C45E00590DC8 /* ItemsViewController.m */; };
 		BD2892501567C86C00590DC8 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD28924E1567C86C00590DC8 /* DetailViewController.m */; };
@@ -23,11 +25,17 @@
 		BD36034D1567BBAD00971DC2 /* SBItemStore.m in Sources */ = {isa = PBXBuildFile; fileRef = BD36034C1567BBAD00971DC2 /* SBItemStore.m */; };
 		BD423B13156846D600918193 /* RegionPickerDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD423B11156846D600918193 /* RegionPickerDetailViewController.m */; };
 		BD423B14156846D600918193 /* RegionPickerDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD423B12156846D600918193 /* RegionPickerDetailViewController.xib */; };
-		BDB350B015755D6A00DB3519 /* starbucks.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = BDB350AF15755D6A00DB3519 /* starbucks.sqlite */; };
 		BDBABFCF157365120084793F /* AllItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBABFCE157365120084793F /* AllItemsViewController.m */; };
+		BDBEDF391576A82B002DC106 /* starbucks.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = BDBEDF381576A82B002DC106 /* starbucks.sqlite */; };
+		BDBEDF3F1576A8C2002DC106 /* CustomHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBEDF3E1576A8C2002DC106 /* CustomHeader.m */; };
+		BDBEDF411576BA6C002DC106 /* main_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BDBEDF401576BA6C002DC106 /* main_bg.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD24835715756C7500BF50DD /* CustomCellBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCellBackground.h; sourceTree = "<group>"; };
+		BD24835815756C7500BF50DD /* CustomCellBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCellBackground.m; sourceTree = "<group>"; };
+		BD24835B15756E5100BF50DD /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		BD24835C15756E5100BF50DD /* Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Common.m; sourceTree = "<group>"; };
 		BD2892461567C26E00590DC8 /* SBItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBItem.h; sourceTree = "<group>"; };
 		BD2892471567C26E00590DC8 /* SBItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBItem.m; sourceTree = "<group>"; };
 		BD28924A1567C45E00590DC8 /* ItemsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemsViewController.h; sourceTree = "<group>"; };
@@ -54,9 +62,12 @@
 		BD423B10156846D600918193 /* RegionPickerDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegionPickerDetailViewController.h; sourceTree = "<group>"; };
 		BD423B11156846D600918193 /* RegionPickerDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegionPickerDetailViewController.m; sourceTree = "<group>"; };
 		BD423B12156846D600918193 /* RegionPickerDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegionPickerDetailViewController.xib; sourceTree = "<group>"; };
-		BDB350AF15755D6A00DB3519 /* starbucks.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = starbucks.sqlite; sourceTree = "<group>"; };
 		BDBABFCD157365120084793F /* AllItemsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllItemsViewController.h; sourceTree = "<group>"; };
 		BDBABFCE157365120084793F /* AllItemsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllItemsViewController.m; sourceTree = "<group>"; };
+		BDBEDF381576A82B002DC106 /* starbucks.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = starbucks.sqlite; sourceTree = "<group>"; };
+		BDBEDF3D1576A8C2002DC106 /* CustomHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomHeader.h; sourceTree = "<group>"; };
+		BDBEDF3E1576A8C2002DC106 /* CustomHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomHeader.m; sourceTree = "<group>"; };
+		BDBEDF401576BA6C002DC106 /* main_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = main_bg.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +85,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BD24835515756C5400BF50DD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BD24835715756C7500BF50DD /* CustomCellBackground.h */,
+				BD24835815756C7500BF50DD /* CustomCellBackground.m */,
+				BD24835B15756E5100BF50DD /* Common.h */,
+				BD24835C15756E5100BF50DD /* Common.m */,
+				BDBEDF3D1576A8C2002DC106 /* CustomHeader.h */,
+				BDBEDF3E1576A8C2002DC106 /* CustomHeader.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		BD24835A15756C7D00BF50DD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BD28924A1567C45E00590DC8 /* ItemsViewController.h */,
+				BD28924B1567C45E00590DC8 /* ItemsViewController.m */,
+				BD28924D1567C86B00590DC8 /* DetailViewController.h */,
+				BD28924E1567C86C00590DC8 /* DetailViewController.m */,
+				BD28924F1567C86C00590DC8 /* DetailViewController.xib */,
+				BD2892591568218300590DC8 /* RegionPicker.h */,
+				BD28925A1568218300590DC8 /* RegionPicker.m */,
+				BD423B10156846D600918193 /* RegionPickerDetailViewController.h */,
+				BD423B11156846D600918193 /* RegionPickerDetailViewController.m */,
+				BD423B12156846D600918193 /* RegionPickerDetailViewController.xib */,
+				BDBABFCD157365120084793F /* AllItemsViewController.h */,
+				BDBABFCE157365120084793F /* AllItemsViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		BD36031D1567B7DE00971DC2 = {
 			isa = PBXGroup;
 			children = (
@@ -107,18 +150,8 @@
 			children = (
 				BD36033B1567B7E000971DC2 /* AppDelegate.h */,
 				BD36033C1567B7E000971DC2 /* AppDelegate.m */,
-				BD28924A1567C45E00590DC8 /* ItemsViewController.h */,
-				BD28924B1567C45E00590DC8 /* ItemsViewController.m */,
-				BD28924D1567C86B00590DC8 /* DetailViewController.h */,
-				BD28924E1567C86C00590DC8 /* DetailViewController.m */,
-				BD28924F1567C86C00590DC8 /* DetailViewController.xib */,
-				BD2892591568218300590DC8 /* RegionPicker.h */,
-				BD28925A1568218300590DC8 /* RegionPicker.m */,
-				BD423B10156846D600918193 /* RegionPickerDetailViewController.h */,
-				BD423B11156846D600918193 /* RegionPickerDetailViewController.m */,
-				BD423B12156846D600918193 /* RegionPickerDetailViewController.xib */,
-				BDBABFCD157365120084793F /* AllItemsViewController.h */,
-				BDBABFCE157365120084793F /* AllItemsViewController.m */,
+				BD24835515756C5400BF50DD /* View */,
+				BD24835A15756C7D00BF50DD /* Controller */,
 				BD36034E1567BBBB00971DC2 /* Model */,
 				BD3603331567B7DF00971DC2 /* Supporting Files */,
 			);
@@ -128,6 +161,7 @@
 		BD3603331567B7DF00971DC2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BDBEDF401576BA6C002DC106 /* main_bg.jpg */,
 				BD3603341567B7DF00971DC2 /* MyCoreData-Info.plist */,
 				BD3603351567B7DF00971DC2 /* InfoPlist.strings */,
 				BD3603381567B7DF00971DC2 /* main.m */,
@@ -139,7 +173,7 @@
 		BD36034E1567BBBB00971DC2 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				BDB350AF15755D6A00DB3519 /* starbucks.sqlite */,
+				BDBEDF381576A82B002DC106 /* starbucks.sqlite */,
 				BD3603431567B9DC00971DC2 /* Starbucks.xcdatamodeld */,
 				BD2892461567C26E00590DC8 /* SBItem.h */,
 				BD2892471567C26E00590DC8 /* SBItem.m */,
@@ -203,7 +237,8 @@
 				BD3603371567B7DF00971DC2 /* InfoPlist.strings in Resources */,
 				BD2892511567C86C00590DC8 /* DetailViewController.xib in Resources */,
 				BD423B14156846D600918193 /* RegionPickerDetailViewController.xib in Resources */,
-				BDB350B015755D6A00DB3519 /* starbucks.sqlite in Resources */,
+				BDBEDF391576A82B002DC106 /* starbucks.sqlite in Resources */,
+				BDBEDF411576BA6C002DC106 /* main_bg.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,6 +259,9 @@
 				BD28925B1568218300590DC8 /* RegionPicker.m in Sources */,
 				BD423B13156846D600918193 /* RegionPickerDetailViewController.m in Sources */,
 				BDBABFCF157365120084793F /* AllItemsViewController.m in Sources */,
+				BD24835915756C7500BF50DD /* CustomCellBackground.m in Sources */,
+				BD24835D15756E5100BF50DD /* Common.m in Sources */,
+				BDBEDF3F1576A8C2002DC106 /* CustomHeader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

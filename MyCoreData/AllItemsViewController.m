@@ -9,6 +9,8 @@
 #import "AllItemsViewController.h"
 #import "SBItem.h"
 #import "SBItemStore.h"
+#import "CustomCellBackground.h"
+#import "CustomHeader.h"
 
 @interface AllItemsViewController ()
 
@@ -48,6 +50,8 @@
 {
     [super viewDidLoad];
 
+    UIImage *backgroundImage = [UIImage imageNamed:@"main_bg.jpg"];
+    [[self view] setBackgroundColor:[UIColor colorWithPatternImage:backgroundImage]];
     [self performFetch];
 }
 
@@ -104,7 +108,10 @@
     SBItem *item = [self.fetchedResultsController objectAtIndexPath:indexPath];
     
     [[cell textLabel] setText:[item name]];
-    [[cell detailTextLabel] setText:[item address]];
+    [[cell textLabel] setBackgroundColor:[UIColor clearColor]];
+    
+    //[[cell detailTextLabel] setText:[item address]];
+    //[[cell detailTextLabel] setBackgroundColor:[UIColor clearColor]];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -112,7 +119,10 @@
     static NSString *CellIdentifier = @"Cell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (!cell) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier];
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+        
+        cell.backgroundView = [[CustomCellBackground alloc] init];
+        cell.selectedBackgroundView = [[CustomCellBackground alloc] init];
     }
     // Configure the cell...
     [self configureCell:cell atIndexPath:indexPath];
@@ -125,6 +135,78 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     //
+}
+
+- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section 
+{
+    CustomHeader *header = [[CustomHeader alloc] init];
+    header.titleLabel.text = [self tableView:tableView titleForHeaderInSection:section];
+    
+    // Default color is light blue
+    if (section == 0 || section == 12 || section == 24 || section == 36) {
+        // Blue
+        header.lightColor = [UIColor colorWithRed:61.0/255.0 green:148.0/255.0 blue:206.0/255.0 alpha:1.0];
+        header.darkColor = [UIColor colorWithRed:20.0/255.0 green:126.0/255.0 blue:196.0/255.0 alpha:1.0];
+    } else if (section == 1 || section == 13 || section == 25 || section == 37) {
+        // Purple
+        header.lightColor = [UIColor colorWithRed:147.0/255.0 green:105.0/255.0 blue:216.0/255.0 alpha:1.0];
+        header.darkColor = [UIColor colorWithRed:72.0/255.0 green:22.0/255.0 blue:137.0/255.0 alpha:1.0];
+    } else if (section == 2 || section == 14 || section == 26 || section == 38) {
+        // Green
+        header.lightColor = [UIColor colorWithRed:70.0/255.0 green:150.0/255.0 blue:50.0/255.0 alpha:1.0];
+        header.darkColor = [UIColor colorWithRed:25.0/255.0 green:125.0/255.0 blue:92.0/255.0 alpha:1.0];
+    } else if (section == 3 || section == 15 || section == 27 || section == 39) {
+        // Red
+        header.lightColor = [UIColor colorWithRed:216.0/255.0 green:40.0/255.0 blue:90.0/255.0 alpha:1.0];
+        header.darkColor = [UIColor colorWithRed:140.0/255.0 green:20.0/255.0 blue:30.0/255.0 alpha:1.0];
+    } else if (section == 4 || section == 16 || section == 28 || section == 40) {
+        // Yellow
+        header.lightColor = [UIColor colorWithRed:255.0/255.0 green:236.0/255.0 blue:150.0/255.0 alpha:1.0];
+        header.darkColor = [UIColor colorWithRed:255.0/255.0 green:200.0/255.0 blue:0.0/255.0 alpha:1.0];
+    } else if (section == 5 || section == 17 || section == 29 || section == 41) {
+        // Orange
+        header.lightColor = [UIColor colorWithRed:255.0/255.0 green:174.0/255.0 blue:78.0/255.0 alpha:1.0];
+        header.darkColor = [UIColor colorWithRed:255.0/255.0 green:100.0/255.0 blue:0.0/255.0 alpha:1.0];
+    } else if (section == 6 || section == 18 || section == 30 || section == 42) {
+        // Pink
+        header.lightColor = [UIColor colorWithRed:255.0/255.0 green:160.0/255.0 blue:210.0/255.0 alpha:1.0];
+        header.darkColor = [UIColor colorWithRed:200.0/255.0 green:40.0/255.0 blue:210.0/255.0 alpha:1.0];
+    } else if (section == 7 || section == 19 || section == 31 || section == 43) {
+        // Brown
+        header.lightColor = [UIColor colorWithRed:135.0/255.0 green:98.0/255.0 blue:65.0/255.0 alpha:1.0];
+        header.darkColor = [UIColor colorWithRed:99.0/255.0 green:51.0/255.0 blue:7.0/255.0 alpha:1.0];
+    } else if (section == 8 || section == 20 || section == 32 || section == 44) {
+        // Gray
+        header.lightColor = [UIColor colorWithRed:245.0/255.0 green:245.0/255.0 blue:245.0/255.0 alpha:1.0];
+        header.darkColor = [UIColor colorWithRed:105.0/255.0 green:105.0/255.0 blue:105.0/255.0 alpha:1.0];
+    }  else if (section == 9 || section == 21 || section == 33 || section == 45) {
+        // Light green
+        header.lightColor = [UIColor colorWithRed:173.0/255.0 green:255.0/255.0 blue:47.0/255.0 alpha:1.0];
+        header.darkColor = [UIColor colorWithRed:0.0/255.0 green:128.0/255.0 blue:0.0/255.0 alpha:1.0];
+    } else if (section == 10 || section == 22 || section == 34 || section == 46) {
+        // Dark gray
+        header.lightColor = [UIColor colorWithRed:88.0/255.0 green:105.0/255.0 blue:114.0/255.0 alpha:1.0];
+        header.darkColor = [UIColor colorWithRed:59.0/255.0 green:78.0/255.0 blue:89.0/255.0 alpha:1.0];
+    } else if (section == 11 || section == 23 || section == 35 || section == 47) {
+        // Dark purple
+        header.lightColor = [UIColor colorWithRed:123.0/255.0 green:57.0/255.0 blue:131.0/255.0 alpha:1.0];
+        header.darkColor = [UIColor colorWithRed:98.0/255.0 green:17.0/255.0 blue:106.0/255.0 alpha:1.0];
+    } else {
+        // Random color
+        float rand_max = RAND_MAX;
+        float red = rand() / rand_max;
+        float green = rand() / rand_max;
+        float blue = rand() / rand_max;
+        header.lightColor = [UIColor colorWithRed:red green:green blue:blue alpha:1.0];
+        header.darkColor = [UIColor colorWithRed:red green:green blue:blue alpha:1.0];
+    }
+    
+    return header;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section 
+{
+    return 50;
 }
 
 
